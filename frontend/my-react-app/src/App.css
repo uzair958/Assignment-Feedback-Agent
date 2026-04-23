@@ -1,0 +1,50 @@
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+  display: grid;
+  gap: 16px;
+}
+
+.panel {
+  border: 1px solid #c9c9c9;
+  border-radius: 8px;
+  padding: 16px;
+  background: #fff;
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+input, textarea, button {
+  font: inherit;
+}
+
+input, textarea {
+  padding: 8px;
+}
+
+.primary-btn {
+  width: fit-content;
+  background: #274ac7;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.error {
+  color: #b00020;
+  font-weight: 600;
+}
+
+.score-card {
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
