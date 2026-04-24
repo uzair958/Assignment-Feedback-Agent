@@ -7,11 +7,27 @@ type Props = {
 export default function UploadForm({ onUpload }: Props) {
   const [selectedFile, setSelectedFile] = useState<File | null>(null)
   const [status, setStatus] = useState('')
+  const [error, setError] = useState('')
+  const [isUploading, setIsUploading] = useState(false)
+
+  const uploadFile = async (file: File) => {
+    if (isUploading) return
+    setError('')
+    setIsUploading(true)
+    try {
+      const fileId = await onUpload(file)
+      setStatus(`Uploaded. File ID: ${fileId}`)
+    } catch (err) {
+      setStatus('')
+      setError(err instanceof Error ? err.message : 'Upload failed.')
+    } finally {
+      setIsUploading(false)
+    }
+  }
 
   const submit = async () => {
     if (!selectedFile) return
-    const fileId = await onUpload(selectedFile)
-    setStatus(`Uploaded. File ID: ${fileId}`)
+    await uploadFile(selectedFile)
   }
 
   return (
@@ -21,13 +37,23 @@ export default function UploadForm({ onUpload }: Props) {
         <input
           type="file"
           accept=".txt,.pdf,.docx"
-          onChange={(e) => setSelectedFile(e.target.files?.[0] ?? null)}
+          onChange={async (e) => {
+            const file = e.target.files?.[0] ?? null
+            setSelectedFile(file)
+            setStatus('')
+            setError('')
+
+            if (file) {
+              await uploadFile(file)
+            }
+          }}
         />
       </div>
-      <button className="primary-btn" type="button" onClick={submit} disabled={!selectedFile}>
-        Upload
+      <button className="primary-btn" type="button" onClick={submit} disabled={!selectedFile || isUploading}>
+        {isUploading ? 'Uploading...' : 'Upload'}
       </button>
       {status && <p>{status}</p>}
+      {error && <p className="error">{error}</p>}
     </section>
   )
 }

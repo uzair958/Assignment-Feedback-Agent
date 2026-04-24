@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     max_file_size_mb: int = 10
     data_dir: str = "data"
 
-    cors_origins: list[str] = Field(default_factory=lambda: ["http://localhost:5173"])
+    cors_origins: list[str] = ["*"]
 
     @property
     def max_file_size_bytes(self) -> int:
