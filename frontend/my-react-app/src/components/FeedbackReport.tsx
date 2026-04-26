@@ -8,7 +8,7 @@ type Props = {
 export default function FeedbackReportView({ report }: Props) {
   return (
     <section className="panel">
-      <h2>3) Feedback Report</h2>
+      <h2>Feedback Report</h2>
       <p>
         Total: {report.total_score}/{report.total_possible}
       </p>

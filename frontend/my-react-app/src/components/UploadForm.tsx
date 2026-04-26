@@ -32,20 +32,16 @@ export default function UploadForm({ onUpload }: Props) {
 
   return (
     <section className="panel">
-      <h2>1) Upload Assignment</h2>
+      <h2>Upload Assignment</h2>
       <div className="field">
         <input
           type="file"
           accept=".txt,.pdf,.docx"
-          onChange={async (e) => {
+          onChange={(e) => {
             const file = e.target.files?.[0] ?? null
             setSelectedFile(file)
             setStatus('')
             setError('')
-
-            if (file) {
-              await uploadFile(file)
-            }
           }}
         />
       </div>

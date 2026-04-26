@@ -20,7 +20,7 @@ export default function RubricBuilder({ rubric, onChange }: Props) {
 
   return (
     <section className="panel">
-      <h2>2) Build Rubric</h2>
+      <h2>Rubric Criteria</h2>
       <div className="field">
         <input
           placeholder="Criterion name"
@@ -47,7 +47,7 @@ export default function RubricBuilder({ rubric, onChange }: Props) {
       <button className="primary-btn" type="button" onClick={addCriterion}>
         Add Criterion
       </button>
-      <ul>
+      <ul className="rubric-list">
         {rubric.map((item) => (
           <li key={`${item.name}-${item.max_points}`}>
             {item.name} ({item.max_points}): {item.description}

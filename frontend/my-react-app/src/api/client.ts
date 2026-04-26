@@ -1,10 +1,17 @@
-import type { FeedbackReport, RubricCriterion, RubricResponse, UploadResponse } from '../types/feedback'
+import type {
+  FeedbackReport,
+  MCPBridgeRequest,
+  MCPBridgeResponse,
+  RubricCriterion,
+  RubricResponse,
+  UploadResponse,
+} from '../types/feedback'
 
 const API_BASE = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:8000/api'
 
-async function request<T>(path: string, init?: RequestInit): Promise<T> {
+async function requestWithBase<T>(base: string, path: string, init?: RequestInit): Promise<T> {
   const method = init?.method ?? 'GET'
-  const url = `${API_BASE}${path}`
+  const url = `${base}${path}`
   const startedAt = performance.now()
 
   console.log('[api] request', { method, url })
@@ -38,6 +45,10 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
   }
 
   return response.json() as Promise<T>
+}
+
+async function request<T>(path: string, init?: RequestInit): Promise<T> {
+  return requestWithBase<T>(API_BASE, path, init)
 }
 
 export const uploadSubmission = async (file: File): Promise<UploadResponse> => {
@@ -79,6 +90,13 @@ export const runFeedback = async (payload: {
   rubric_id: string
 }): Promise<{ report: FeedbackReport }> =>
   request<{ report: FeedbackReport }>('/feedback/run', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  })
+
+export const runMcpBridge = async (payload: MCPBridgeRequest): Promise<MCPBridgeResponse> =>
+  request<MCPBridgeResponse>('/mcp/bridge', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload),
