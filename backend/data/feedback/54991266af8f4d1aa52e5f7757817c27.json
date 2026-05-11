@@ -1,0 +1,112 @@
+{
+  "feedback_id": "54991266af8f4d1aa52e5f7757817c27",
+  "rubric_id": "ef29e18b5225421d866e583b76035e46",
+  "file_id": "d5376b6137844669a0394f62bc7deb7f",
+  "report": {
+    "overall_summary": "The student's submission demonstrates exceptional grammar skills, with zero errors, but lacks clarity and coherence in conveying ideas. The total score of 50.0 out of 98.0 indicates significant room for improvement in areas such as providing explanatory context and using narrative techniques. To excel, the student must focus on enhancing the clarity and flow of their writing.",
+    "total_score": 50.0,
+    "total_possible": 98.0,
+    "grade_breakdown": [
+      {
+        "criterion": "clarity",
+        "max_points": 48.0,
+        "awarded_points": 0.0,
+        "justification": "The student text excerpt lacks clarity as it only provides a summary of NLP data without any explanatory context or coherent narrative. The excerpt does not demonstrate the student's ability to convey their ideas in a clear and understandable manner.",
+        "strengths": [],
+        "improvements": [
+          "Provide explanatory context for the NLP data",
+          "Use coherent narrative to convey ideas"
+        ],
+        "evidence_quotes": [
+          "NLP Data Summary: grammar_errors=0, ttr=0.0, flow=0.0"
+        ]
+      },
+      {
+        "criterion": "Grammar",
+        "max_points": 50.0,
+        "awarded_points": 50.0,
+        "justification": "The student text excerpt demonstrates perfect grammar, as indicated by the NLP Data Summary showing zero grammar errors. This suggests that the student has a strong command of grammatical rules and conventions, resulting in a flawless submission.",
+        "strengths": [
+          "Perfect grammar",
+          "Adherence to grammatical conventions"
+        ],
+        "improvements": [
+          "None necessary at this time",
+          "Continued attention to detail"
+        ],
+        "evidence_quotes": [
+          "grammar_errors=0"
+        ]
+      }
+    ],
+    "top_strengths": [
+      "Perfect grammar",
+      "Adherence to grammatical conventions",
+      "Attention to detail"
+    ],
+    "priority_improvements": [
+      "Provide explanatory context for the NLP data",
+      "Use coherent narrative to convey ideas",
+      "Improve paragraph coherence"
+    ],
+    "suggested_next_steps": [
+      "Revise the submission to include explanatory context for the NLP data",
+      "Practice using narrative techniques to convey ideas clearly",
+      "Seek feedback from peers or instructors on improving paragraph coherence and overall flow"
+    ]
+  },
+  "ingest": {
+    "raw_text": "",
+    "word_count": 0,
+    "paragraph_count": 0,
+    "detected_sections": [],
+    "language": "en"
+  },
+  "analysis": {
+    "grammar_errors": [],
+    "grammar_error_count": 0,
+    "avg_sentence_length": 0.0,
+    "passive_voice_ratio": 0.0,
+    "ttr": 0.0,
+    "paragraph_coherence": [],
+    "overall_flow_score": 0.0,
+    "flow_comments": "No text provided to evaluate the logical flow between sections."
+  },
+  "rubric_match": {
+    "rubric_scores": [
+      {
+        "criterion": "clarity",
+        "max_points": 48.0,
+        "awarded_points": 0.0,
+        "justification": "The student text excerpt lacks clarity as it only provides a summary of NLP data without any explanatory context or coherent narrative. The excerpt does not demonstrate the student's ability to convey their ideas in a clear and understandable manner.",
+        "strengths": [],
+        "improvements": [
+          "Provide explanatory context for the NLP data",
+          "Use coherent narrative to convey ideas"
+        ],
+        "evidence_quotes": [
+          "NLP Data Summary: grammar_errors=0, ttr=0.0, flow=0.0"
+        ]
+      },
+      {
+        "criterion": "Grammar",
+        "max_points": 50.0,
+        "awarded_points": 50.0,
+        "justification": "The student text excerpt demonstrates perfect grammar, as indicated by the NLP Data Summary showing zero grammar errors. This suggests that the student has a strong command of grammatical rules and conventions, resulting in a flawless submission.",
+        "strengths": [
+          "Perfect grammar",
+          "Adherence to grammatical conventions"
+        ],
+        "improvements": [
+          "None necessary at this time",
+          "Continued attention to detail"
+        ],
+        "evidence_quotes": [
+          "grammar_errors=0"
+        ]
+      }
+    ],
+    "total_score": 50.0,
+    "total_possible": 98.0
+  }
+}

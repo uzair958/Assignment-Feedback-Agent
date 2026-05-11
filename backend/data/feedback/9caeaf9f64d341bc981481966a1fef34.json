@@ -1,0 +1,217 @@
+{
+  "feedback_id": "9caeaf9f64d341bc981481966a1fef34",
+  "rubric_id": "dc99702249d04efea5713bb50d96a499",
+  "file_id": "e49eefdad51846fe830bcfe943b234c4",
+  "report": {
+    "overall_summary": "The submission lacks readable content, making it impossible to evaluate clarity and steps. The text is incomplete, lacks a clear topic or main idea, and does not provide any meaningful content.",
+    "total_score": 0.0,
+    "total_possible": 100.0,
+    "grade_breakdown": [
+      {
+        "criterion": "Clarity",
+        "max_points": 50.0,
+        "awarded_points": 0.0,
+        "justification": "The submission lacks readable content, making it impossible to evaluate clarity.",
+        "strengths": [],
+        "improvements": [
+          "Provide actual text for evaluation",
+          "Ensure the submission is free from unnecessary repetitions"
+        ],
+        "evidence_quotes": [
+          "CamScanner (repeated multiple times, with no actual text provided)"
+        ]
+      },
+      {
+        "criterion": "Steps",
+        "max_points": 50.0,
+        "awarded_points": 0.0,
+        "justification": "The student text excerpt does not provide any clear or detailed steps, as it appears to be a series of repeated phrases unrelated to the task.",
+        "strengths": [],
+        "improvements": [
+          "Provide a clear and detailed description of each step",
+          "Ensure the text is relevant to the task and free of unnecessary repetition"
+        ],
+        "evidence_quotes": [
+          "CamScanner (repeated multiple times, indicating a lack of relevant content)"
+        ]
+      }
+    ],
+    "top_strengths": [],
+    "priority_improvements": [
+      "Provide actual text for evaluation",
+      "Ensure the submission is free from unnecessary repetitions",
+      "Provide a clear and detailed description of each step",
+      "Ensure the text is relevant to the task and free of unnecessary repetition"
+    ],
+    "suggested_next_steps": [
+      "Develop a clear topic sentence to introduce the main idea",
+      "Provide supporting details and explanations to enhance coherence",
+      "Expand on the concept of CamScanner, including its purpose and relevance",
+      "Construct complete sentences that convey a coherent thought process"
+    ]
+  },
+  "ingest": {
+    "raw_text": "CamScanner\n\nCamScanner\n\nCamScanner\n\nCamScanner\n\nCamScanner\n\nCamScanner\n\nCamScanner\n\nCamScanner",
+    "word_count": 8,
+    "paragraph_count": 8,
+    "detected_sections": [],
+    "language": "en"
+  },
+  "analysis": {
+    "grammar_errors": [],
+    "grammar_error_count": 0,
+    "avg_sentence_length": 15.0,
+    "passive_voice_ratio": 0.0,
+    "ttr": 0.125,
+    "paragraph_coherence": [
+      {
+        "paragraph_index": 0,
+        "score": 1,
+        "issues": [
+          "The paragraph is incomplete and lacks any meaningful content.",
+          "There is no clear topic or main idea presented.",
+          "The single word 'CamScanner' does not provide enough context for analysis."
+        ],
+        "suggestions": [
+          "Provide a complete paragraph with a clear topic or main idea.",
+          "Include relevant details and supporting evidence to enhance coherence.",
+          "Explain the context or significance of 'CamScanner' to improve understanding."
+        ]
+      },
+      {
+        "paragraph_index": 1,
+        "score": 1,
+        "issues": [
+          "Lack of context",
+          "Incomplete thought",
+          "No clear topic or subject"
+        ],
+        "suggestions": [
+          "Provide more context about CamScanner",
+          "Clearly state the purpose or main idea of the paragraph",
+          "Develop a complete thought or sentence about CamScanner"
+        ]
+      },
+      {
+        "paragraph_index": 2,
+        "score": 1,
+        "issues": [
+          "The paragraph is incomplete and lacks a clear topic or main idea",
+          "There is no sentence structure or coherent thought process",
+          "The single word 'CamScanner' does not provide enough context for analysis"
+        ],
+        "suggestions": [
+          "Develop a clear topic sentence to introduce the main idea",
+          "Provide supporting details and explanations to enhance coherence",
+          "Expand on the concept of CamScanner, its purpose, and its relevance to the discussion"
+        ]
+      },
+      {
+        "paragraph_index": 3,
+        "score": 1,
+        "issues": [
+          "Lack of context",
+          "Insufficient information",
+          "No clear topic or theme"
+        ],
+        "suggestions": [
+          "Provide more context about CamScanner",
+          "Clearly state the purpose or main idea of the paragraph",
+          "Add relevant details or supporting information about CamScanner"
+        ]
+      },
+      {
+        "paragraph_index": 4,
+        "score": 1,
+        "issues": [
+          "The paragraph is incomplete and lacks a clear topic or main idea",
+          "There is no sentence structure or coherent thought process",
+          "The single word 'CamScanner' does not provide enough context for analysis"
+        ],
+        "suggestions": [
+          "Develop a clear topic or main idea for the paragraph",
+          "Construct complete sentences to convey a coherent thought process",
+          "Provide more context or information about CamScanner to facilitate analysis"
+        ]
+      },
+      {
+        "paragraph_index": 5,
+        "score": 1,
+        "issues": [
+          "The paragraph is incomplete and lacks a clear topic or subject.",
+          "There is no discernible argument, claim, or main idea presented.",
+          "The single word 'CamScanner' does not provide enough context for analysis."
+        ],
+        "suggestions": [
+          "Develop a clear and focused topic or subject for the paragraph.",
+          "Provide sufficient context and background information about CamScanner.",
+          "Clearly state the main idea or argument related to CamScanner."
+        ]
+      },
+      {
+        "paragraph_index": 6,
+        "score": 1,
+        "issues": [
+          "The paragraph is incomplete and lacks a clear topic or main idea.",
+          "There is no sentence structure or coherent thought process.",
+          "The single word 'CamScanner' does not provide enough context for analysis."
+        ],
+        "suggestions": [
+          "Develop a clear topic sentence to introduce the main idea.",
+          "Provide supporting details and explanations to enhance understanding.",
+          "Expand on the concept of CamScanner, including its purpose and relevance."
+        ]
+      },
+      {
+        "paragraph_index": 7,
+        "score": 1,
+        "issues": [
+          "The paragraph is incomplete and lacks a clear topic or main idea.",
+          "There is no sentence structure or coherent thought process.",
+          "The single word 'CamScanner' does not provide enough context for analysis."
+        ],
+        "suggestions": [
+          "Develop a clear topic or main idea for the paragraph.",
+          "Construct complete sentences that convey a coherent thought process.",
+          "Provide more context about what CamScanner is or its relevance to the topic at hand."
+        ]
+      }
+    ],
+    "overall_flow_score": 1.0,
+    "flow_comments": "The text lacks coherence and logical flow, as it appears to be a repetition of the same phrase 'CamScanner' without any meaningful connection or progression between sections."
+  },
+  "rubric_match": {
+    "rubric_scores": [
+      {
+        "criterion": "Clarity",
+        "max_points": 50.0,
+        "awarded_points": 0.0,
+        "justification": "The submission lacks readable content, making it impossible to evaluate clarity.",
+        "strengths": [],
+        "improvements": [
+          "Provide actual text for evaluation",
+          "Ensure the submission is free from unnecessary repetitions"
+        ],
+        "evidence_quotes": [
+          "CamScanner (repeated multiple times, with no actual text provided)"
+        ]
+      },
+      {
+        "criterion": "Steps",
+        "max_points": 50.0,
+        "awarded_points": 0.0,
+        "justification": "The student text excerpt does not provide any clear or detailed steps, as it appears to be a series of repeated phrases unrelated to the task.",
+        "strengths": [],
+        "improvements": [
+          "Provide a clear and detailed description of each step",
+          "Ensure the text is relevant to the task and free of unnecessary repetition"
+        ],
+        "evidence_quotes": [
+          "CamScanner (repeated multiple times, indicating a lack of relevant content)"
+        ]
+      }
+    ],
+    "total_score": 0.0,
+    "total_possible": 100.0
+  }
+}

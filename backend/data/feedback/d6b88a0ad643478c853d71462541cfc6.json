@@ -1,0 +1,141 @@
+{
+  "feedback_id": "d6b88a0ad643478c853d71462541cfc6",
+  "rubric_id": "330701bda64b4175a012328660f226a5",
+  "file_id": "4a80564187554c14b12ac45b65721c2d",
+  "report": {
+    "overall_summary": "A solid essay that addresses the topic clearly with room for deeper analysis.",
+    "total_score": 16.0,
+    "total_possible": 20.0,
+    "grade_breakdown": [
+      {
+        "criterion": "Clarity",
+        "max_points": 10.0,
+        "awarded_points": 8.0,
+        "justification": "The writing is clear and well-structured with a logical flow.",
+        "strengths": [
+          "Clear thesis",
+          "Good transitions"
+        ],
+        "improvements": [
+          "Add more supporting evidence"
+        ],
+        "evidence_quotes": [
+          "climate change is one of the most pressing challenges"
+        ]
+      },
+      {
+        "criterion": "Structure",
+        "max_points": 10.0,
+        "awarded_points": 8.0,
+        "justification": "The writing is clear and well-structured with a logical flow.",
+        "strengths": [
+          "Clear thesis",
+          "Good transitions"
+        ],
+        "improvements": [
+          "Add more supporting evidence"
+        ],
+        "evidence_quotes": [
+          "climate change is one of the most pressing challenges"
+        ]
+      }
+    ],
+    "top_strengths": [
+      "Clear main argument",
+      "Good paragraph structure"
+    ],
+    "priority_improvements": [
+      "Include more data and citations"
+    ],
+    "suggested_next_steps": [
+      "Add a bibliography",
+      "Expand the conclusion paragraph"
+    ]
+  },
+  "ingest": {
+    "raw_text": "Climate change is one of the most pressing challenges of our time.\n\nRising temperatures are causing glaciers to melt and sea levels to rise.\n\nGovernments must act now to reduce carbon emissions and invest in renewables.",
+    "word_count": 36,
+    "paragraph_count": 3,
+    "detected_sections": [],
+    "language": "en"
+  },
+  "analysis": {
+    "grammar_errors": [],
+    "grammar_error_count": 0,
+    "avg_sentence_length": 12.67,
+    "passive_voice_ratio": 0.0,
+    "ttr": 0.833,
+    "paragraph_coherence": [
+      {
+        "paragraph_index": 0,
+        "score": 4,
+        "issues": [
+          "Minor issue"
+        ],
+        "suggestions": [
+          "Add transition"
+        ]
+      },
+      {
+        "paragraph_index": 1,
+        "score": 4,
+        "issues": [
+          "Minor issue"
+        ],
+        "suggestions": [
+          "Add transition"
+        ]
+      },
+      {
+        "paragraph_index": 2,
+        "score": 4,
+        "issues": [
+          "Minor issue"
+        ],
+        "suggestions": [
+          "Add transition"
+        ]
+      }
+    ],
+    "overall_flow_score": 4.2,
+    "flow_comments": "Flow is mostly smooth."
+  },
+  "rubric_match": {
+    "rubric_scores": [
+      {
+        "criterion": "Clarity",
+        "max_points": 10.0,
+        "awarded_points": 8.0,
+        "justification": "The writing is clear and well-structured with a logical flow.",
+        "strengths": [
+          "Clear thesis",
+          "Good transitions"
+        ],
+        "improvements": [
+          "Add more supporting evidence"
+        ],
+        "evidence_quotes": [
+          "climate change is one of the most pressing challenges"
+        ]
+      },
+      {
+        "criterion": "Structure",
+        "max_points": 10.0,
+        "awarded_points": 8.0,
+        "justification": "The writing is clear and well-structured with a logical flow.",
+        "strengths": [
+          "Clear thesis",
+          "Good transitions"
+        ],
+        "improvements": [
+          "Add more supporting evidence"
+        ],
+        "evidence_quotes": [
+          "climate change is one of the most pressing challenges"
+        ]
+      }
+    ],
+    "total_score": 16.0,
+    "total_possible": 20.0
+  }
+}

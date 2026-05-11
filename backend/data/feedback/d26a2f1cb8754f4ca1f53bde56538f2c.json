@@ -1,0 +1,94 @@
+{
+  "feedback_id": "d26a2f1cb8754f4ca1f53bde56538f2c",
+  "rubric_id": "14b808141d2747ed9dd555b4a6968efa",
+  "file_id": "9e77cc61440f4a38a5894a990a0d935d",
+  "report": {
+    "overall_summary": "The submission did not provide a written text for evaluation, resulting in a score of 0.0/100.0. The lack of text made it impossible to assess clarity, steps, and overall flow.",
+    "total_score": 0.0,
+    "total_possible": 100.0,
+    "grade_breakdown": [
+      {
+        "criterion": "Clarity",
+        "max_points": 50.0,
+        "awarded_points": 0.0,
+        "justification": "The submission lacks a readable text to evaluate clarity.",
+        "strengths": [],
+        "improvements": [
+          "Provide a written text for evaluation",
+          "Ensure the text is well-structured and easy to follow"
+        ],
+        "evidence_quotes": []
+      },
+      {
+        "criterion": "Steps",
+        "max_points": 50.0,
+        "awarded_points": 0.0,
+        "justification": "The student text excerpt does not provide any steps, let alone clear and detailed ones, to evaluate against the criterion.",
+        "strengths": [],
+        "improvements": [
+          "Provide a step-by-step breakdown of the process or methodology used.",
+          "Ensure each step is clearly described and easy to follow."
+        ],
+        "evidence_quotes": []
+      }
+    ],
+    "top_strengths": [],
+    "priority_improvements": [
+      "Provide a written text for evaluation",
+      "Ensure the text is well-structured and easy to follow",
+      "Provide a step-by-step breakdown of the process or methodology used"
+    ],
+    "suggested_next_steps": [
+      "Submit a rewritten text that addresses the improvements listed above",
+      "Review the rubric criteria to understand the expectations for clarity and steps",
+      "Use the feedback to guide revisions and improve the overall quality of the submission"
+    ]
+  },
+  "ingest": {
+    "raw_text": "",
+    "word_count": 0,
+    "paragraph_count": 0,
+    "detected_sections": [],
+    "language": "en"
+  },
+  "analysis": {
+    "grammar_errors": [],
+    "grammar_error_count": 0,
+    "avg_sentence_length": 0.0,
+    "passive_voice_ratio": 0.0,
+    "ttr": 0.0,
+    "paragraph_coherence": [],
+    "overall_flow_score": 0.0,
+    "flow_comments": "No text provided to evaluate the logical flow between sections."
+  },
+  "rubric_match": {
+    "rubric_scores": [
+      {
+        "criterion": "Clarity",
+        "max_points": 50.0,
+        "awarded_points": 0.0,
+        "justification": "The submission lacks a readable text to evaluate clarity.",
+        "strengths": [],
+        "improvements": [
+          "Provide a written text for evaluation",
+          "Ensure the text is well-structured and easy to follow"
+        ],
+        "evidence_quotes": []
+      },
+      {
+        "criterion": "Steps",
+        "max_points": 50.0,
+        "awarded_points": 0.0,
+        "justification": "The student text excerpt does not provide any steps, let alone clear and detailed ones, to evaluate against the criterion.",
+        "strengths": [],
+        "improvements": [
+          "Provide a step-by-step breakdown of the process or methodology used.",
+          "Ensure each step is clearly described and easy to follow."
+        ],
+        "evidence_quotes": []
+      }
+    ],
+    "total_score": 0.0,
+    "total_possible": 100.0
+  }
+}

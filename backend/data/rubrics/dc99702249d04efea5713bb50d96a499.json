@@ -1,0 +1,15 @@
+{
+  "criteria": [
+    {
+      "name": "Clarity",
+      "max_points": 50.0,
+      "description": "Clear to read"
+    },
+    {
+      "name": "Steps",
+      "max_points": 50.0,
+      "description": "ALL steps must be clears and detailed"
+    }
+  ],
+  "rubric_id": "dc99702249d04efea5713bb50d96a499"
+}
