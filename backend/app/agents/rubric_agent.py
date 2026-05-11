@@ -17,15 +17,31 @@ def match_rubric(
     for criterion in rubric:
         excerpt = _excerpt_for_criterion(raw_text, criterion)
         prompt = (
+<<<<<<< HEAD
             "Evaluate the submission against this rubric criterion and return JSON with:\n"
             "awarded_points (0..max_points), justification, strengths (list), improvements (list), "
             "evidence_quotes (list from student text).\n\n"
+=======
+            "Evaluate the submission against this rubric criterion.\n\n"
+>>>>>>> 566a2197804150882e2304a0ec64eb6b06d2cb35
             f"Criterion: {criterion.name}\n"
             f"Description: {criterion.description}\n"
             f"Max Points: {criterion.max_points}\n"
             f"Student Text Excerpt:\n{excerpt}\n"
             f"NLP Data Summary: grammar_errors={nlp_analysis.grammar_error_count}, "
+<<<<<<< HEAD
             f"ttr={nlp_analysis.ttr}, flow={nlp_analysis.overall_flow_score}"
+=======
+            f"ttr={nlp_analysis.ttr}, flow={nlp_analysis.overall_flow_score}\n\n"
+            "Return ONLY a JSON object with EXACTLY these keys:\n"
+            "{\n"
+            f'  "awarded_points": <number between 0 and {criterion.max_points}>,\n'
+            '  "justification": "<one paragraph string explaining the score>",\n'
+            '  "strengths": ["<strength 1>", "<strength 2>"],\n'
+            '  "improvements": ["<improvement 1>", "<improvement 2>"],\n'
+            '  "evidence_quotes": ["<direct quote from student text>"]\n'
+            "}"
+>>>>>>> 566a2197804150882e2304a0ec64eb6b06d2cb35
         )
 
         result = groq_client.call_json(

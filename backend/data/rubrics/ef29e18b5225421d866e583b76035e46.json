@@ -1,0 +1,15 @@
+{
+  "criteria": [
+    {
+      "name": "clarity",
+      "max_points": 48.0,
+      "description": "should be clear"
+    },
+    {
+      "name": "Grammar",
+      "max_points": 50.0,
+      "description": "Grammatically correct"
+    }
+  ],
+  "rubric_id": "ef29e18b5225421d866e583b76035e46"
+}

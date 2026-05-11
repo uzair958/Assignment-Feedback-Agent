@@ -6,11 +6,25 @@ def generate_feedback_report(
     rubric_result: RubricMatchOutput, nlp_analysis: NLPAnalysisOutput
 ) -> FeedbackReport:
     prompt = (
+<<<<<<< HEAD
         "Generate student feedback report JSON with keys: overall_summary, top_strengths, "
         "priority_improvements, suggested_next_steps.\n\n"
         f"Rubric Scores: {rubric_result.model_dump_json()}\n"
         f"NLP Analysis: {nlp_analysis.model_dump_json()}\n"
         f"Total Score: {rubric_result.total_score}/{rubric_result.total_possible}"
+=======
+        "Generate a student feedback report based on the rubric scores and NLP analysis below.\n\n"
+        f"Rubric Scores: {rubric_result.model_dump_json()}\n"
+        f"NLP Analysis: {nlp_analysis.model_dump_json()}\n"
+        f"Total Score: {rubric_result.total_score}/{rubric_result.total_possible}\n\n"
+        "Return ONLY a JSON object with EXACTLY these keys:\n"
+        "{\n"
+        '  "overall_summary": "<2-3 sentence summary of the student\'s performance>",\n'
+        '  "top_strengths": ["<strength 1>", "<strength 2>", "<strength 3>"],\n'
+        '  "priority_improvements": ["<improvement 1>", "<improvement 2>", "<improvement 3>"],\n'
+        '  "suggested_next_steps": ["<action step 1>", "<action step 2>", "<action step 3>"]\n'
+        "}"
+>>>>>>> 566a2197804150882e2304a0ec64eb6b06d2cb35
     )
     result = groq_client.call_json(
         prompt=prompt,

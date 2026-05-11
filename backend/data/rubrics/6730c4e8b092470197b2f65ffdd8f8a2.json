@@ -1,0 +1,15 @@
+{
+  "criteria": [
+    {
+      "name": "Clarity",
+      "max_points": 10.0,
+      "description": "Is the writing clear and easy to follow?"
+    },
+    {
+      "name": "Structure",
+      "max_points": 10.0,
+      "description": "Is the essay logically structured?"
+    }
+  ],
+  "rubric_id": "6730c4e8b092470197b2f65ffdd8f8a2"
+}
